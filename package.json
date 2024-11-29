@@ -58,7 +58,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/half0wl/superjson-cjs"
+    "url": "git+https://github.com/half0wl/superjson-cjs.git"
   },
   "devDependencies": {
     "@types/debug": "^4.1.5",
@@ -80,5 +80,8 @@
   "resolutions": {
     "**/@typescript-eslint/eslint-plugin": "^4.11.1",
     "**/@typescript-eslint/parser": "^4.11.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
